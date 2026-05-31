@@ -9,7 +9,26 @@ Example network:
 
 ## 3. Key Devices in a Network
 
+### Laptop / Client
+The laptop is the device requesting information, such as visiting a website.
+
+### Router
+The router connects the local network to the internet. It helps move traffic between private devices and the public network.
+
+### Server
+The server is the computer that responds to requests, such as sending back a webpage.
+
 ## 4. IP Addresses vs MAC Addresses
+### IP Address
+An IP address identifies a device on a network. It helps data find the correct destination. An example of an IP address is: 192.168.1.10
+
+### Mac Address
+A MAC address identifies a physical network interface, such as a Wi-Fi card or Ethernet adapter. An example of a MAC address is: AA:BB:CC:11:22:33
+
+| Type | Purpose | Example |
+|---|---|---|
+| IP Address | Finds a device across networks | 192.168.1.10 |
+| MAC Address | Finds a device on the local network | AA:BB:CC:11:22:33
 
 ## 5. OSI Model Summary
 
