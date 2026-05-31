@@ -24,7 +24,6 @@ The server is the computer that responds to requests, such as sending back a web
 ## 4. IP Addresses vs MAC Addresses
 ### IP Address
 An IP address identifies a device on a network. It helps data find the correct destination. An example of an IP address is: 192.168.1.10
-
 ### Mac Address
 A MAC address identifies a physical network interface, such as a Wi-Fi card or Ethernet adapter. An example of a MAC address is: AA:BB:CC:11:22:33
 
@@ -45,9 +44,19 @@ A MAC address identifies a physical network interface, such as a Wi-Fi card or E
 | 1 | Physical | Cables, signals, Wi-Fi, and hardware |
 
 ## 6. Packet vs Frame
+### Packet
+A packet is a chunk of data that contains IP address information. They operate mainly at Layer 3, the Network layer.
+### Frame
+A frame is a chunk of data that contains MAC address information. They operate mainly at Layer 2, the Data Link layer.
 
+| Concept | Layer | Uses |
+|---|---|---|
+| Packet | Layer 3 | IP addresses |
+| Frame | Layer 2 | MAC addresses |
 
 ## 7. TCP vs UDP
+### TCP
+### UDP
 
 ## 8. Common Network Protocols
 
