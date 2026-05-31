@@ -5,17 +5,7 @@ This project goes over the basic networking concepts from TryHackMe's Network Fu
 
 ## 2. Simple Home Network Diagram
 Example network:
-[My Laptop]
-    |
-    | Wi-Fi / Ethernet
-    |
-[Home Router]
-    |
-    | Internet Service Provider
-    |
-[Internet]
-    |
-[Website Server]
+[My Laptop] -> Wi-Fi / Ethernet -> [Home Router] -> Internet Service Provider (ISP) -> [Internet] -> [Website Server]
 
 ## 3. Key Devices in a Network
 
