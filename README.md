@@ -12,6 +12,9 @@ Example network:
 ### Laptop / Client
 The laptop is the device requesting information, such as visiting a website.
 
+## Switch
+A switch is a dedicated device within a network that aggregates multiple other network-capable devices, improving communication efficiency and reducing network congestion between devices and the router.
+
 ### Router
 The router connects the local network to the internet. It helps move traffic between private devices and the public network.
 
@@ -31,8 +34,18 @@ A MAC address identifies a physical network interface, such as a Wi-Fi card or E
 | MAC Address | Finds a device on the local network | AA:BB:CC:11:22:33
 
 ## 5. OSI Model Summary
+| Layer | Name | Simple Explanation |
+|---|---|---|
+| 7 | Application | Apps and services users interact with |
+| 6 | Presentation | Formats and encrypts data |
+| 5 | Session | Manages connections between systems |
+| 4 | Transport | Controls data delivery using TCP or UDP |
+| 3 | Network | Handles IP addresses and routing |
+| 2 | Data Link | Handles MAC addresses and frames |
+| 1 | Physical | Cables, signals, Wi-Fi, and hardware |
 
 ## 6. Packet vs Frame
+
 
 ## 7. TCP vs UDP
 
