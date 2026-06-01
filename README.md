@@ -55,14 +55,57 @@ A frame is a chunk of data that contains MAC address information. They operate m
 | Frame | Layer 2 | MAC addresses |
 
 ## 7. TCP vs UDP
+There are two main protocols transporting data across a network:
 ### TCP
+TCP is a connection-based protocol, focusing on reliable delivery.
+
+Examples:
+- Web browsing
+- File downloads
+- Email
 ### UDP
+UDP is faster, but does not guarantee delivery.
+
+Examples:
+- Video streaming
+- Online gaming
+- Voice calls
+
+| Protocol | Strength | Weakness |
+|---|---|---|
+| TCP | Reliable | Slower |
+| UDP | Fast | Less reliable |
 
 ## 8. Common Network Protocols
+| Protocol | Purpose |
+|---|---|
+| HTTP | Loads websites |
+| HTTPS | Loads encrypted websites |
+| DNS | Converts domain names into IP addresses |
+| DHCP | Automatically gives devices IP addresses |
+| TCP | Reliable data delivery |
+| UDP | Fast data delivery |
+| ICMP | Used for tools like ping |
 
 ## 9. What Exactly Happens When I Visit a Website?
 
+Example: visiting 'google.com'
+
+1. My laptop checks the website name.
+2. DNS finds the IP address for the website via DNS.
+3. My laptop sends data toward the router.
+4. The router forwards traffic to the Internet.
+5. The website server receives the request.
+6. The server sends the website back.
+7. My laptop displays the website in the browser.
+
 ## 10. Security Takeaways
+Understanding how networks work is important for cybersecurity because attackers and defenders both need to understand how data moves. Security professionals use this knowledge to:
+- Detect suspicious traffic
+- Understand scans and attacks
+- Configure firewalls
+- Investigate incidents
+- Secure routers, servers, etc.
 
 ## 11. What I Learned
 
