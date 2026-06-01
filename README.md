@@ -108,6 +108,7 @@ Understanding how networks work is important for cybersecurity because attackers
 - Secure routers, servers, etc.
 
 ## 11. What I Learned
+From this module, I learned that networks are built using layers. Devices use IP addresses, MAC addresses, packets, frames, and protocols to communicate with each other. I realized that cybersecurity heavily depends on network fundamentals, and the need to understand how communication works digitally.
 
 ## References
 - TryHackMe. "Introduction to Cyber Security." TryHackMe, [https://tryhackme.com/](https://tryhackme.com/module/network-fundamentals)
